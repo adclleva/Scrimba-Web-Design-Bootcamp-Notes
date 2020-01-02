@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-size: 16px; /* there's not much of a need of putting the font-size in the p tags since we can just have them globally*/
+}
+
+h1 {
+    font-size: 48px;
+    color: #2E7AD3;
+    margin: 45px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px; 
+    color: #104C90;
+    margin: 0; /* we have this margin as 0 because */
+    margin-bottom: 10px; /* the order of this matters*/
+    /* we can also use margin: 0 0 10  ; instead of the two shown above*/
+}
+
+p {
+    margin: 9px 0px;
+}
+
+.container {
+    width: 450px; /* we have it as 450 because the padding would be 25px on each side which would equal up to 500px */
+    padding: 25px;
+    background-color: #F1F1F1;
+    margin: 0 auto;
+}
+
+
+.window-img {
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.read-more {
+    margin: 0;
+}
+ 
+a {
+    color: #FF8000;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* order matters here and we always want to style up our links for the user to know that they are interactable*/ 
+a:hover, 
+a:focus {
+    color: #104C90;     
+}
+
+/*
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>An Awesome Blog</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="main-header"> 
+            <h1>An Awesome Blog </h1>
+        </div>
+        
+        <div class="blog-post">  
+            <h2>An Awesome Blog Post </h2>    
+            <p>At vero eos et<span>accusam et justo duo<span> dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+            
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr. Netus et malesuada fames ac. <span>Sed cras ornare</span> arcu dui vivamus. Elementum integer enim neque volutpat ac tincidunt vitae semper. </p>
+            
+            <a>Read more... </a>
+        </div>
+    </body>
+</html>
+*/
