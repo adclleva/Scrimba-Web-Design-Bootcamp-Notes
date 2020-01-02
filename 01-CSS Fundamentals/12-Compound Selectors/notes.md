@@ -1,0 +1,1 @@
+You can be more specific with your selectors by using what is called a compound selector
