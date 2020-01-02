@@ -1,0 +1,97 @@
+/* 1. we like starting at the body because the css would usually cascade down */
+/* 2. then we go with the typography */
+/* 2a. we can have the buttons go with the typography */
+/* 3. after typography that's when we start the layout stuff*/
+
+/* it is also good practice to make the css be as generic as possible to continue the DRY method*/
+
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: #2e354f; 
+} /* this is considered the parent */ 
+
+h1, 
+h2,
+strong {
+    font-weight: 900; /* being explicit for the font weight is good practice just in case the user doesn't have the properties pre-loaded in their computer*/
+}
+
+/* Typography */
+h1 {
+    font-size: 36px;
+    color: #FFF;
+    margin: 0; /* we do this because we don't want to mess with additional */
+}
+
+h2 {
+    font-size: 24px;
+    color: #ef5839;
+}
+
+a {
+    color: #ef5839;
+}
+
+a:hover,
+a:focus {
+    color: #2f62b5;
+}
+.container {
+    width: 620px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block; /* we usually do inline block for buttons*/
+    padding: 10px 25px;
+    margin: 0 5px 0 0 ;
+    text-decoration: none;
+}
+
+.contact {
+    color: white;
+    background: #ef5839;
+}
+
+.contact:hover {
+    color: #ef5839;
+    background: white;
+}
+
+.info {
+    color: #2e354f;
+    background: white;
+}
+
+.info:hover {
+    color: white;
+    background: #2f62b5;
+}
+
+/* Layout */
+header {
+    background: #2e354f; /* background is shorthand for background-color*/
+    padding: 45px 0;
+}
+
+.container {
+    width: 620px;
+    margin: 0 auto;
+    /* we can have "border: solid 5px white" to show  how the sections are being held, we can also use wrapper as well*/
+}
+
+section {
+    padding: 45px 0;
+}
+
+.section-one {
+    background: white;
+}
+
+.section-two {
+    background-color: #2e354f;
+    color: white;
+}
+
