@@ -33,3 +33,9 @@ landscape means that it is wider than it is tall
 while portrait means that it is taller than it is wide
 
 https://css-tricks.com/logic-in-media-queries/
+
+media queries should also be after the selected 
+
+there's also different approaches with media queries as you can have them all at 
+the bottom of the css file or have the media querie be right below from their 
+respepctive selector
