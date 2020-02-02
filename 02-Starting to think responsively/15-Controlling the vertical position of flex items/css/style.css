@@ -41,7 +41,9 @@ img {
     display: flex;
     justify-content: space-between;
     /* align-items helps us control the vertical position for the 
-        flexed items, default is stretch and match the height of the parent */
+        flexed items, default is stretch and match the height of the parent 
+        cross-axis is a nother way of saying the vertical axis
+        */
     align-items: flex-start;
     margin: 1em 0;
     border: 5px solid steelblue;
