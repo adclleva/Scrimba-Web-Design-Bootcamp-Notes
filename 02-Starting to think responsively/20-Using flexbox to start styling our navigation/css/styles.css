@@ -1,0 +1,34 @@
+/*  Fonts
+    -----
+    font-family: 'Lora', serif;
+    font-family: 'Ubuntu', sans-serif;
+ */
+ 
+ header {
+     text-align: center;
+ }
+ 
+ nav ul {
+     list-style: none;
+     /* with lists, there's default padding, thus is common to put padding: 0 on them */
+     padding: 0;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ nav li {
+    
+     /* we add margin so we can have a set distance between the items 
+        no matter how many nav-items we have
+        with justify-content within the parent of the tag, it will always be in the center*/
+     margin: 0 1em;
+ }
+ 
+ nav a {
+     
+ }
+ 
+ nav a:hover {
+     
+ }
+ 
