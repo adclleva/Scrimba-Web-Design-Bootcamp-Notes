@@ -1,0 +1,56 @@
+<html>
+    <head><link rel="stylesheet" href="normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body> 
+        <header>
+            <div class="container container-nav">
+                <div class="site-title">
+                    <h1>Living the social life</h1>
+                    <p class="subtitle">A blog exploring minimalism in life</p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About me</a></li>
+                        <li><a href="#">Recent posts</a></li>
+                    </ul>
+                </nav>
+            </div> <!-- / .container -->
+        </header>
+        
+        <div class="container">
+            <main role="main">
+               <!-- articles are usually self contained divs that has a semantic meaning
+                     the naming conventions for the different classes here are good practices
+                     and is something to consider for readibility. 
+                    It's similar to having modifier classes to buttons  --> 
+                <article class="article-featured">
+                    <!-- the reasons why we have it in this order is for screen readers and we 
+                            can change up the order with flexbox -->
+                    <h2 class="article-title"></h2>
+                    <img src="" alt="" class="article-image">
+                    <!-- the article info will consist of the date and time-->
+                    <p class="article-info"></p>
+                    <!-- the article-body is basically the regular text or content-->
+                    <p class="article-body"></p>
+                    <a href="#" class="article-read-more"></a>
+                </article>
+                
+                <article class="article-recent"></article>
+                <article class="article-recent"></article>
+                <article class="article-recent"></article>
+            </main>
+            <aside class="sidebar"></aside>
+        </div>
+        
+        
+        <footer>
+            <p></p>
+            <p></p>
+        </footer>
+        
+        
+    </body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    font-size: 1.125rem;
+    color: #707070;
+    margin: 0;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 3rem;
+    color: #212614;
+    text-align: center;
+}
+
+/* this is a compound selector */
+h1 span { 
+    color: #b7832f;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+
+/*  Layout  */
+/* max-width for the image instead of width: 100% is so thhe 
+    image doesn't expand past is given width range
+*/
+img {
+    max-width: 100%; 
+}
+
+.container {
+    width: 95%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.columns {
+    display: flex;
+}
