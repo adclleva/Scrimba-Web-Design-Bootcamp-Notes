@@ -26,6 +26,7 @@ h3 {
     font-family: 'Lora', serif;
     font-weight: 400;
     color: #143774;
+    /* a thing to keep note that sometimes the margins don't collapes in cases with flexbox*/
     margin-top: 0;
 }
 
@@ -173,7 +174,7 @@ nav a:focus {
     flex-direction: column;
     margin-bottom: 2em;
 }
-
+/* we have the order for the flexbox here */
 .article-recent-main {
     order: 2;
 }
