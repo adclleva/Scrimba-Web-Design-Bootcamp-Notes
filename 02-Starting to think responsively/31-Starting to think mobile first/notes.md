@@ -1,0 +1,1 @@
+starting mobile first makes everything easier
