@@ -1,0 +1,1 @@
+it's a good idea to get the css down for the typography before going with the layout
